@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Plamen-Stoyanov-employees
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application that identifies the pair of employees who have worked together on common projects for the longest period of time. It reads data from a CSV file uploaded by the user, loops through the data, calculates the pair of employees which worked most days on common project and displays them in a table.
 
-## Available Scripts
+## Usage
+In the project directory, you have to run:
 
-In the project directory, you can run:
+To install all the dependencies:
+### `npm i`
 
+to run the start the server
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sample data: 
+It's given a text file in the format EmpID, ProjectID, DateFrom, DateTo Example data:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   143, 12, 2013-11-01, 2014-01-05
+   218, 10, 2012-05-16, NULL
+   143, 10, 2009-01-01, 2011-04-27
+   ...
 
-### `npm test`
+## Specific requirements 
+1) DateTo can be NULL, equivalent to today.
+2) The input data must be loaded to the program from a CSV file.
+3) Create a UI: The user picks up a file from the file system and, after selecting it, all common projects of the pair are displayed in a datagrid with the following columns: Employee ID #1, Employee ID #2, Project ID, Days worked.
+4) The task solution needs to be uploaded to github.com, repository name must be in format: `{FirstName}-{LastName}-employees`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+- React.js
+- Material UI
+- Moment.js
+- Papa Parse
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
