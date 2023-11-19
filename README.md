@@ -8,7 +8,7 @@ In the project directory, you have to run:
 To install all the dependencies:
 ### `npm i`
 
-to run the start the server
+to start the project
 ### `npm start`
 
 ## Sample data: 
@@ -30,6 +30,7 @@ Example:
 
 ## Technologies
 * React.js
+* Redux
 * Material UI
 * Moment.js
 * Papa Parse
