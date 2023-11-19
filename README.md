@@ -22,6 +22,8 @@ Example:
       ...
    ```
 
+I also created sample mock-up files that you can download or read data from. They are placed in the files folder ```./files/```.
+
 ## Specific requirements 
 * DateTo can be NULL, equivalent to today.
 * The input data must be loaded to the program from a CSV file.
