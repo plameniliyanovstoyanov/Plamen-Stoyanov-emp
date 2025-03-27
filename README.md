@@ -1,4 +1,4 @@
-# Plamen-Stoyanov-employees
+# Emp
 
 An application that identifies the pair of employees who have worked together on common projects for the longest period of time. It reads data from a CSV file uploaded by the user, loops through the data, calculates the pair of employees who worked most days on a common project and displays them in a table.
 
